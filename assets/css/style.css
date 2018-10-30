@@ -7,13 +7,36 @@ body {
     margin: 0;
 }
 
+#topline {
+    background-color: #777777;
+    box-sizing: border-box;
+    z-index: 2;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    line-height: 0px;
+    float: bottom;
+}
 
+footer  {
+    background-color: grey;
+    text-align: center;
+    font-size: 12px; color: #dddddd;
+    padding-top: 40px;
+    border-top-color: #4aaaa5; border-top-width: 10px;
+    
+}
+
+#feet {
+    background-color: #4aaaa5;
+    padding-top: 5px;
+    margin-top: 120px;
+}
 
 ul {
     list-style-type: none;
     padding-right: 25%;
     padding-left: 25%;
-    margin-bottom: 50px; margin-top: 0px;
+    margin-top: 0px;
     overflow: hidden;
     background-color: #ffffff;
     z-index: 2;
@@ -52,8 +75,10 @@ li a:hover {
             box-sizing: border-box;
             border-color: #dddddd;
             border: 15px;
+            margin-top: 50px; 
             margin-left: 25%;
             margin-right: 25%
+            
 }
 
 #div1 {
