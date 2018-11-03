@@ -1,0 +1,93 @@
+* {
+    line-height: 30px;
+}
+
+body {
+    background-image: url("images/gravel.png");
+    margin: 0;
+}
+
+
+
+
+footer  {
+    background-color: grey;
+    text-align: center;
+    font-size: 12px; color: #dddddd;
+    padding-top: 40px;
+    border-top-color: #4aaaa5; border-top-width: 8px;
+    
+}
+
+#feet {
+    background-color: #4aaaa5;
+    padding-top: 5px;
+    margin-top: 120px;
+}
+
+ul {
+    list-style-type: none;
+    padding-right: 25%;
+    padding-left: 25%;
+    margin-top: 0px;
+    overflow: hidden;
+    background-color: #ffffff;
+    z-index: 2;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray ;
+}
+
+li a {
+    float: right;
+}
+
+#name {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    background-color: #4aaaa5;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: #777777;
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.wrapper { text-align: center;
+            background-color: #ffffff;
+            box-sizing: border-box;
+            border-color: #dddddd;
+            border: 15px;
+            margin-top: 50px; 
+            margin-left: 25%;
+            margin-right: 25%
+            
+}
+
+#div1 {
+    box-sizing: content-box;
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+}
+
+h1 { color: #4aaaa5; }
+
+#dirty { width: 33%; height: 160px;
+         padding-right: 20px; float: left;
+         padding-top: 15px;
+         padding-bottom: 15px;
+}
