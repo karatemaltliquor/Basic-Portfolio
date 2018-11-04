@@ -42,7 +42,7 @@ li a {
     float: right;
 }
 
-#name {
+#name,  {
     float: left;
     display: block;
     text-align: center;
@@ -86,8 +86,34 @@ li a:hover {
 
 h1 { color: #4aaaa5; }
 
+
+.rock { background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+   font-size: 1.5em;
+   height: 60px;
+   width: 172px;
+   line-height: 60px;
+  position: absolute;
+  margin-top: 110px;
+
+}
+
 #dirty { width: 33%; height: 160px;
          padding-right: 20px; float: left;
          padding-top: 15px;
          padding-bottom: 15px;
-}
+         z-index: 1;}
+
+.rock2 { background-color: #4aaaa5;
+            color: white;
+            text-align: center;
+           font-size: 1.5em;
+           height: 60px;
+           width: 172px;
+           line-height: 60px;
+          position: absolute;
+          margin-top: 110px;
+          margin-left: 450px;
+          float:right;
+
